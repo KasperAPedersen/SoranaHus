@@ -1,0 +1,9 @@
+﻿Pages->_Layout.cshtml
+    - Defines the default html structure of the webpage
+    - Contains the head and body tags
+    - RenderBody() refers to Shared->MainLayout.razor
+    
+Shared->MainLayout.razor
+    - Inherits from LayoutComponentBase (Pages->_Layout.cshtml)
+    - Defines the shared layout of the webpage
+    - @Body refers to the content of the page (Pages folder)
