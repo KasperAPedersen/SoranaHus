@@ -1,0 +1,74 @@
+﻿@page "/"
+
+<PageTitle>Todo Manager</PageTitle>
+
+@using TodoManager.Data
+@using System.Text.Json
+@using System.Collections.Generic
+@using System.Linq
+
+<div class="card addTodoForm">
+    <h4>Add Todo</h4>
+    <EditForm Model="@todo" OnSubmit="HandleAddTodoSubmit">
+        <input @bind="todo.Title" type="text" placeholder="Title"/>
+        <input @bind="todo.Text" type="text" placeholder="Text"/>
+        <button type="submit">Add</button>
+    </EditForm>
+</div>
+
+<div class="card addTodoForm">
+    <h4>Stats</h4>
+    <p>Todos: @todoList.Count</p>
+    <p>Incompleted: @(todoList.Where(todo => !todo.IsCompleted).ToList().Count)</p>
+    <p>Completed: @(todoList.Where(todo => todo.IsCompleted).ToList().Count)</p>
+    <button @onclick="() => DeleteCompletedTodos()">Delete</button>
+</div>
+
+<div class="clearFix"></div>
+
+@foreach (Todo todo in todoList)
+{
+    <div class="card todo" @onclick="() => todo.ToggleIsCompleted()">
+        <h3>@todo.Title</h3>
+        <p>@todo.Text</p>
+        <p>@(todo.IsCompleted ? "Completed" : "Not completed")</p>
+    </div>
+}
+
+@code {
+    private List<Todo> todoList = new List<Todo>();
+    private Todo todo = new Todo();
+    
+    protected override void OnInitialized()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            todoList.Add(new TodoBuilder()
+                .SetTitle("test " + i)
+                .SetText("test text")
+                .SetIsCompleted(false)
+                .Build());
+        }
+        
+        Console.WriteLine(JsonSerializer.Serialize(todoList));
+    }
+
+    private void HandleAddTodoSubmit()
+    {
+        Todo newTodo = new TodoBuilder()
+                .SetTitle(todo.Title)
+                .SetText(todo.Text)
+                .SetIsCompleted(false)
+                .Build();
+        
+        todoList.Add(newTodo);
+    }
+
+    private void DeleteCompletedTodos()
+    {
+        todoList
+            .Where(todo => todo.IsCompleted)
+            .ToList()
+            .ForEach(todo => todoList.Remove(todo));
+    }
+}

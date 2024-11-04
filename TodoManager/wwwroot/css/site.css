@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix {
+    clear: both;
+}
+
+header {
+    padding: 15px 30px;
+}
+
+.addTodoForm {
+    width: calc(50% - 30px);
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    min-height: 225px;
+}
+
+.addTodoForm input {
+    width: 100%;
+    display: block;
+    padding: 5px 15px;
+    margin: 15px 0;
+    border: transparent;
+    border-left: 2px solid black;
+}
+
+.addTodoForm button {
+    float: right;
+    padding: 5px 30px;
+    border: transparent;
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 15px;
+}
+
+.addTodoForm h4 {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.todo {
+    float: left;
+    width: calc(33% - 30px);
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.todo h3 {
+    color: rgba(0, 0, 0, 0.2);
+    
+}
+
+.todo p {
+    text-align: center;
+}
+
+.todo p:last-of-type {
+    text-align: right;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+}
