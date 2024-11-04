@@ -1,23 +1,17 @@
-﻿<img src="https://soranahus.dk/wp-content/uploads/2020/07/Sorana-EPS.svg" alt="Soranahus" />
+﻿<div class="swp">
+    <img src="https://soranahus.dk/wp-content/uploads/2020/07/Sorana-EPS.svg" alt="Soranahus" />
+    <div>
+        <a href="#" class="activeHeaderTile">Om Soranahus</a>
+        <a href="#">For sagsbehandlere</a>
+        <a href="#">For den unge</a>
+        <a href="#">Kontakt</a>
+    </div>
 
-<div>
-    <a href="#" class="activeHeaderTile">Om Soranahus</a>
-    <a href="#">For sagsbehandlere</a>
-    <a href="#">For den unge</a>
-    <a href="#">Kontakt</a>
+    <div>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <i class="fa fa-envelope-square" aria-hidden="true"></i>
+    </div>
+
+    <div class="clearfix"></div>
 </div>
-
-<div>
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-    <i class="fa fa-envelope-square" aria-hidden="true" @onclick="Mail"></i>
-</div>
-
-<div class="clearfix"></div>
-
-@{
-    static void Mail()
-    {
-        Console.WriteLine("Mail");
-    }
-}

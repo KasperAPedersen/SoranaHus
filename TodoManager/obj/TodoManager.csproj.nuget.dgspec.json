@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\TodoManager.csproj": {}
+    "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\TodoManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\TodoManager.csproj": {
+    "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\TodoManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\TodoManager.csproj",
+        "projectUniqueName": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\TodoManager.csproj",
         "projectName": "TodoManager",
-        "projectPath": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\TodoManager.csproj",
+        "projectPath": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\TodoManager.csproj",
         "packagesPath": "C:\\Users\\zbc23kaped\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\",
+        "outputPath": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1nGXffMg6meZY6fpGUtGe1Bj1ivv8dI+lbPLZQDkuZk=",
+  "Hash": "ia1wLx2eNScOef5fiap6LSJZjbmroEegbgVbdhJuy5U=",
   "Source": "soranahus",
   "BasePath": "_content/soranahus",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "soranahus\\wwwroot",
       "Source": "soranahus",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\soranahus.styles.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\soranahus.styles.css",
       "SourceId": "soranahus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "soranahus.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\soranahus.styles.css"
+      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\soranahus.styles.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\soranahus.bundle.scp.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\soranahus.bundle.scp.css",
       "SourceId": "soranahus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "soranahus.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\soranahus.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\soranahus.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\css\\site.css",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\favicon.ico",
       "SourceId": "soranahus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
       "BasePath": "_content/soranahus",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -300,6 +300,101 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\images\\bornetelefonen_bg.jpg",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "images/bornetelefonen_bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bornetelefonen_bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\images\\bornetelefonen.png",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "images/bornetelefonen.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bornetelefonen.png"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\images\\hero.png",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "images/hero.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero.png"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\images\\logo.svg",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "images/logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\images\\udtalelser_bg.jpg",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "images/udtalelser_bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\udtalelser_bg.jpg"
     }
   ]
 }

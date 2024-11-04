@@ -1,7 +1,24 @@
+:root {
+    --primary-color: #046474;
+    --secondary-color: #fff;
+    --tertiary-color: #025260;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Encode Sans", sans-serif;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.swp {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -9,17 +26,22 @@
 header {    
     width: 100%;
     height: 110px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 5px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary-color);
+    z-index: 15;
 }
 
-header img {
+header>div>img {
     height: 100%;
     width: 20%;
     float: left;
 }
 
-header>div:first-of-type {
+header>div>div:first-of-type {
     height: 100%;
     width: 60%;
     float: left;
@@ -27,31 +49,230 @@ header>div:first-of-type {
     padding-top: calc((110px - 28px) / 2);
 }
 
-header>div:first-of-type a {
+header>div>div:first-of-type a {
     font-size: 18px;
     padding: 10px 15px;
-    background-color: #fff;
+    background-color: var(--secondary-color);
     text-decoration: none;
-    color: #046474;
+    color: var(--primary-color);
     border-radius: 2px;
 }
 
-header>div:first-of-type .activeHeaderTile, header>div:first-of-type a:hover {
-    background-color: #046474;
-    color: #fff;
+header>div>div:first-of-type .activeHeaderTile, header>div>div:first-of-type a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
 }
 
-header>div:nth-of-type(2) {
+header>div>div:nth-of-type(2) {
     height: 100%;
     width: 20%;
     float: left;
-    text-align: right;
+    text-align: center;
     padding-top: calc((100px - 32px) / 2);
     padding-right: 30px;
 }
 
-header>div:nth-of-type(2) i {
+header>div>div:nth-of-type(2) i {
     font-size: 28px;
     letter-spacing: 5px;
     cursor: pointer;
+    color: var(--primary-color);
+}
+
+/* main */
+
+main>div>div:first-of-type {
+    width: 100%;
+    height: 600px;
+}
+
+main>div>div:first-of-type img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main>div>div:nth-of-type(2) {
+    width: 100%;
+    height: 300px;
+}
+
+main>div>div:nth-of-type(2)>div:first-of-type {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: var(--primary-color);
+    position: relative;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+main>div>div:nth-of-type(2)>div h3 {
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+main>div>div:nth-of-type(2)>div:nth-of-type(2) {
+    background-color: var(--secondary-color);
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+main>div>div:nth-of-type(2)>div:nth-of-type(2) p {
+    width: 80%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* -- */
+
+main>div>div:nth-of-type(4) {
+    height: 400px;
+}
+
+main>div>div:nth-of-type(4)>div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+main>div>div:nth-of-type(4)>div:first-of-type {
+    background-color: var(--secondary-color);
+}
+
+main>div>div:nth-of-type(4)>div:first-of-type iframe {
+    height: calc(100% - 30px);
+    width: 80%;
+    border: transparent;
+    border-radius: 25px;
+}
+
+main>div>div:nth-of-type(4)>div:nth-of-type(2) {
+    background-color: var(--primary-color);
+    background-image: url("../images/bornetelefonen_bg.jpg");
+    background-size: cover;
+}
+
+main>div>div:nth-of-type(4)>div:nth-of-type(2)>img {
+    height: 100%;
+}
+
+/* -- */
+main>div>div:nth-of-type(6) {
+    height: 400px;
+}
+
+main>div>div:nth-of-type(6)>div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+main>div>div:nth-of-type(6)>div>div {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    float: left;
+    text-align: center;
+}
+
+main>div>div:nth-of-type(6)>div:nth-of-type(1) {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+main>div>div:nth-of-type(6)>div:nth-of-type(2) {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+main>div>div:nth-of-type(6)>div>div i {
+    font-size: 75px;
+}
+
+main>div>div:nth-of-type(6)>div>div h3 {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* -- */
+main>div>div:nth-of-type(8) {
+    height: 500px;
+    background-image: url("../images/udtalelser_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main>div>div:nth-of-type(8) h2 {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    height: 20%;
+}
+
+main>div>div:nth-of-type(8)>div {
+    width: 50%;
+    float: left;
+    height: 80%;
+    text-align: center;
+}
+
+main>div>div:nth-of-type(8)>div h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main>div>div:nth-of-type(8)>div>div {
+    width: 80%;
+    margin-left: 10%;
+    color: var(--secondary-color);
+}
+
+main>div>div:nth-of-type(8)>div>div>p>span {
+    font-style: italic;
+}
+
+/* footer */
+footer>div>div:first-of-type {
+    background-color: var(--primary-color);
+    height: 250px;
+    padding: 25px 0;
+}
+
+footer>div>div:first-of-type>div {
+    padding: 15px;
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    color: var(--secondary-color);
+}
+
+footer>div>div:first-of-type>div p {
+    margin-top: 30px;
+}
+
+
+footer>div>div:first-of-type>div>div {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+footer>div>div:first-of-type>div>div p  {
+}
+
+footer>div>div:last-of-type {
+    height: 10%;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 10px;
 }

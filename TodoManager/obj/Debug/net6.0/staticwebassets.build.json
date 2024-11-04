@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "66bi5SBzn/A+il/UZcdcGmFo3U37BJr/1nguTB95zeI=",
+  "Hash": "Tz83K3GgakK/VJz1l9SkpTVaU8W+AYLl+yQ5SsUqkUY=",
   "Source": "TodoManager",
   "BasePath": "_content/TodoManager",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TodoManager\\wwwroot",
       "Source": "TodoManager",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TodoManager.styles.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TodoManager.styles.css",
       "SourceId": "TodoManager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "TodoManager.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TodoManager.styles.css"
+      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TodoManager.styles.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TodoManager.bundle.scp.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TodoManager.bundle.scp.css",
       "SourceId": "TodoManager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "TodoManager.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TodoManager.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TodoManager.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\css\\site.css",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\favicon.ico",
       "SourceId": "TodoManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\TodoManager\\TodoManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\TodoManager\\wwwroot\\",
       "BasePath": "_content/TodoManager",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\soranahus.csproj": {}
+    "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\soranahus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\soranahus.csproj": {
+    "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\soranahus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\soranahus.csproj",
+        "projectUniqueName": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\soranahus.csproj",
         "projectName": "soranahus",
-        "projectPath": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\soranahus.csproj",
+        "projectPath": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\soranahus.csproj",
         "packagesPath": "C:\\Users\\zbc23kaped\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbc23kaped\\RiderProjects\\Soranahus\\soranahus\\obj\\",
+        "outputPath": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
