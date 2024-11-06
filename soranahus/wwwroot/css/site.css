@@ -1,7 +1,7 @@
 :root {
     --primary-color: #046474;
     --secondary-color: #fff;
-    --tertiary-color: #025260;
+    --tertiary-color: #04647433;
 }
 
 * {
@@ -23,11 +23,11 @@
 
 /* header */
 
-header {    
+header {
     width: 100%;
     height: 110px;
     padding: 5px 0;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
     left: 0;
@@ -35,13 +35,13 @@ header {
     z-index: 15;
 }
 
-header>div>img {
+header > div > img {
     height: 100%;
     width: 20%;
     float: left;
 }
 
-header>div>div:first-of-type {
+header > div > div:first-of-type {
     height: 100%;
     width: 60%;
     float: left;
@@ -49,7 +49,7 @@ header>div>div:first-of-type {
     padding-top: calc((110px - 28px) / 2);
 }
 
-header>div>div:first-of-type a {
+header > div > div:first-of-type a {
     font-size: 18px;
     padding: 10px 15px;
     background-color: var(--secondary-color);
@@ -58,13 +58,25 @@ header>div>div:first-of-type a {
     border-radius: 2px;
 }
 
-header>div>div:first-of-type .activeHeaderTile, header>div>div:first-of-type a:hover {
+header > div > div:first-of-type a:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+header > div > div:first-of-type .activeHeaderTile {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 5px;
 }
 
-header>div>div:nth-of-type(2) {
+header > div > div:first-of-type .activeHeaderTile:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+header > div > div:nth-of-type(2) {
     height: 100%;
     width: 20%;
     float: left;
@@ -73,7 +85,7 @@ header>div>div:nth-of-type(2) {
     padding-right: 30px;
 }
 
-header>div>div:nth-of-type(2) i {
+header > div > div:nth-of-type(2) i {
     font-size: 28px;
     letter-spacing: 5px;
     cursor: pointer;
@@ -82,23 +94,23 @@ header>div>div:nth-of-type(2) i {
 
 /* main */
 
-main>div>div:first-of-type {
+main > div > div:first-of-type {
     width: 100%;
     height: 600px;
 }
 
-main>div>div:first-of-type img {
+main > div > div:first-of-type img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-main>div>div:nth-of-type(2) {
+main > div > div:nth-of-type(2) {
     width: 100%;
     height: 300px;
 }
 
-main>div>div:nth-of-type(2)>div:first-of-type {
+main > div > div:nth-of-type(2) > div:first-of-type {
     width: 50%;
     height: 400px;
     float: left;
@@ -110,107 +122,82 @@ main>div>div:nth-of-type(2)>div:first-of-type {
     background-position: bottom;
 }
 
-main>div>div:nth-of-type(2)>div h3 {
+main > div > div:nth-of-type(2) > div h3 {
     width: 80%;
     font-size: 30px;
     text-align: center;
     color: var(--secondary-color);
+    margin-top: calc((110px - 28px) / 2);
 }
 
-main>div>div:nth-of-type(2)>div:nth-of-type(2) {
-    background-color: var(--secondary-color);
-    width: 50%;
-    height: 400px;
-    float: left;
-}
-
-main>div>div:nth-of-type(2)>div:nth-of-type(2) p {
+main > div > div:nth-of-type(2) > div p {
     width: 80%;
     text-align: center;
-    color: var(--primary-color);
-}
-
-/* -- */
-
-main>div>div:nth-of-type(4) {
-    height: 400px;
-}
-
-main>div>div:nth-of-type(4)>div {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-main>div>div:nth-of-type(4)>div:first-of-type {
-    background-color: var(--secondary-color);
-}
-
-main>div>div:nth-of-type(4)>div:first-of-type iframe {
-    height: calc(100% - 30px);
-    width: 80%;
-    border: transparent;
-    border-radius: 25px;
-}
-
-main>div>div:nth-of-type(4)>div:nth-of-type(2) {
-    background-color: var(--primary-color);
-    background-image: url("../images/bornetelefonen_bg.jpg");
-    background-size: cover;
-}
-
-main>div>div:nth-of-type(4)>div:nth-of-type(2)>img {
-    height: 100%;
-}
-
-/* -- */
-main>div>div:nth-of-type(6) {
-    height: 400px;
-}
-
-main>div>div:nth-of-type(6)>div {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-main>div>div:nth-of-type(6)>div>div {
-    width: 50%;
-    height: 100%;
-    padding: 15px;
-    float: left;
-    text-align: center;
-    margin-top: 30px;
-}
-
-main>div>div:nth-of-type(6)>div:nth-of-type(1) {
-    background-color: var(--primary-color);
     color: var(--secondary-color);
+    margin-top: calc((110px - 28px) / 2);
 }
 
-main>div>div:nth-of-type(6)>div:nth-of-type(2) {
+main > div > div:nth-of-type(2) > div:nth-of-type(2) {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    width: 50%;
+    height: 400px;
+    float: left;
 }
 
-main>div>div:nth-of-type(6)>div>div i {
-    font-size: 75px;
-}
-
-main>div>div:nth-of-type(6)>div>div h3 {
-    margin: 15px 0;
-    font-weight: bold;
+main > div > div:nth-of-type(2) > div iframe {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    border: transparent;
+    border-radius: 15px;
 }
 
 /* -- */
-main>div>div:nth-of-type(8) {
-    height: 500px;
+
+main > div > div:nth-of-type(4) {
+    height: 1000px;
+    position: relative;
+    color: var(--primary-color);
+}
+
+main > div > div:nth-of-type(4)::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--tertiary-color);
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -700px 200px;
+    filter: blur(5px); /* Adjust the blur radius as needed */
+    clip-path: inset(0); /* This will clip the blurred edges */
+    z-index: -1;
+    transform: scaleX(-1);
+}
+
+main > div > div:nth-of-type(4) h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-align: center;
+    margin: calc((110px - 28px) / 2);
+}
+
+main > div > div:nth-of-type(4) p {
+    color: var(--primary-color);
+    text-align: center;
+    margin: calc((110px - 28px) / 2);
+}
+
+/* -- */
+
+main > div > div:nth-of-type(6) {
+    height: 400px;
     background-image: url("../images/udtalelser_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-main>div>div:nth-of-type(8) h2 {
+main > div > div:nth-of-type(6) h2 {
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -219,61 +206,146 @@ main>div>div:nth-of-type(8) h2 {
     height: 20%;
 }
 
-main>div>div:nth-of-type(8)>div {
+main > div > div:nth-of-type(6) > div {
     width: 50%;
     float: left;
     height: 80%;
     text-align: center;
 }
 
-main>div>div:nth-of-type(8)>div h3 {
+main > div > div:nth-of-type(6) > div h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
 
-main>div>div:nth-of-type(8)>div>div {
+main > div > div:nth-of-type(6) > div > div {
     width: 80%;
     margin-left: 10%;
     color: var(--secondary-color);
 }
 
-main>div>div:nth-of-type(8)>div>div>p>span {
+main > div > div:nth-of-type(6) > div > div > p > span {
+    font-style: italic;
+}
+
+/* -- */
+main > div > div:nth-of-type(8) {
+    height: 400px;
+}
+
+main > div > div:nth-of-type(8) > div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+main > div > div:nth-of-type(8) > div > div {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main > div > div:nth-of-type(8) > div:nth-of-type(1) {
+    background-color: var(--primary-color);
+    position: relative;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: var(--secondary-color);
+}
+
+main > div > div:nth-of-type(8) > div:nth-of-type(2) {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+main > div > div:nth-of-type(8) > div > div i {
+    font-size: 75px;
+}
+
+main > div > div:nth-of-type(8) > div > div h3 {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* -- */
+
+main > div > div:nth-of-type(10) {
+    height: 400px;
+    background-image: url("../images/bornetelefonen_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main > div > div:nth-of-type(10) img {
+    height: 100%;
+}
+
+main > div > div:nth-of-type(10) h2 {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    height: 20%;
+}
+
+main > div > div:nth-of-type(10) > div {
+    width: 50%;
+    float: left;
+    height: 80%;
+    text-align: center;
+}
+
+main > div > div:nth-of-type(10) > div h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main > div > div:nth-of-type(10) > div > div {
+    width: 80%;
+    margin-left: 10%;
+    color: var(--secondary-color);
+}
+
+main > div > div:nth-of-type(10) > div > div > p > span {
     font-style: italic;
 }
 
 /* footer */
-footer>div>div:first-of-type {
+
+footer {
+    width: 100%;
     background-color: var(--primary-color);
-    height: 250px;
-    padding: 25px 0;
+    color: var(--secondary-color);
+    margin-top: 50px;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer>div>div:first-of-type>div {
-    padding: 15px;
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 200px;
+
+}
+
+footer .footer-container > div {
     width: calc(100% / 3);
-    height: 100%;
-    float: left;
-    color: var(--secondary-color);
-}
-
-footer>div>div:first-of-type>div p {
-    margin-top: 30px;
-}
-
-
-footer>div>div:first-of-type>div>div {
-    width: 60%;
-    margin-left: 20%;
     text-align: center;
 }
 
-footer>div>div:first-of-type>div>div p  {
+footer .footer-container > div h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-footer>div>div:last-of-type {
-    height: 10%;
-    text-align: center;
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-    padding: 10px;
+footer .footer-container > div p {
+    margin-bottom: 10px;
 }

@@ -5,71 +5,48 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = soranahus
 build_property.RootNamespace = soranahus
-build_property.ProjectDir = C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\zbc23mhse\RiderProjects\Soranahus\soranahus\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus
+build_property.MSBuildProjectDirectory = C:\Users\zbc23mhse\RiderProjects\Soranahus\soranahus
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/App.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/Index.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/Test.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Shared/Footer.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Shared/Header.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/_Imports.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Shared/MainLayout.razor]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-q9x2v2ptpr
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ijq8mncl02
-
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/Error.cshtml]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/_Host.cshtml]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zbc23kaped/source/repos/SoranaHus/soranahus/Pages/_Layout.cshtml]
+[C:/Users/zbc23mhse/RiderProjects/Soranahus/soranahus/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
