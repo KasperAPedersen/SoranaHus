@@ -154,7 +154,7 @@ main > div > div:nth-of-type(2) > div iframe {
     height: calc(100% - 30px);
     width: calc(100% - 30px);
     border: transparent;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /* -- */
