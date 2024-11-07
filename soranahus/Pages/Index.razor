@@ -126,7 +126,13 @@
                     let children = (elem.children[0].children);
                     for (let o = 0; o < children.length; o++) {
                         children[o].style.display = "none";
-                        if (children[o].tagName === "P") children[o].style.display = "block";
+                        if (children[o].tagName === "P") {
+                            children[o].style.display = "block";
+                            children[o].classList.add('fade-in');
+                            setTimeout(() => {
+                                children[o].classList.add('show');
+                            }, 10);
+                        }
                     }
                 });
                 
@@ -134,11 +140,15 @@
                     let children = (elem.children[0].children);
                     for (let o = 0; o < children.length; o++) {
                         children[o].style.display = "block";
-                        if (children[o].tagName === "P") children[o].style.display = "none";
+                        if (children[o].tagName === "P") {
+                            children[o].style.display = "none";
+                            children[o].classList.remove('fade-in', 'show');
+                        }
                     }
                 });
             }
         })();
+    
     </script>
 </div>
 <!---->

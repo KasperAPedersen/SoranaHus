@@ -376,3 +376,12 @@ footer  > div > div {
     text-align: center;
     float: left;
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
