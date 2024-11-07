@@ -1,0 +1,46 @@
+﻿:root {
+    --primary-color: #046474;
+    --secondary-color: #fff;
+    --tertiary-color: #04647433;
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans", sans-serif;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.swp {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main > div > div:nth-of-type(2) > div:first-of-type *::selection,
+main > div > div:nth-of-type(8) > div:nth-of-type(2) > div *::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}

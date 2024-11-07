@@ -1,134 +1,22 @@
-:root {
-    --primary-color: #046474;
-    --secondary-color: #fff;
-    --tertiary-color: #04647433;
-}
-
-::selection {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-}
-
-::-webkit-scrollbar-track {
-    background-color: var(--secondary-color);
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--primary-color);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Encode Sans", sans-serif;
-}
-
-.clearFix {
-    clear: both;
-}
-
-.swp {
-    max-width: 1440px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-/* header */
-
-header {
-    width: 100%;
-    height: 110px;
-    padding: 5px 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: var(--secondary-color);
-    z-index: 15;
-}
-
-header > div > img {
-    height: 100%;
-    width: 20%;
-    float: left;
-}
-
-header > div > div:first-of-type {
-    height: 100%;
-    width: 60%;
-    float: left;
-    text-align: center;
-    padding-top: calc((110px - 28px) / 2);
-}
-
-header > div > div:first-of-type a {
-    font-size: 18px;
-    padding: 10px 15px;
-    background-color: var(--secondary-color);
-    text-decoration: none;
-    color: var(--primary-color);
-    border-radius: 2px;
-}
-
-header > div > div:first-of-type a:hover {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-    border-radius: 5px;
-}
-
-header > div > div:first-of-type .activeHeaderTile {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 5px;
-}
-
-header > div > div:first-of-type .activeHeaderTile:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 5px;
-}
-
-header > div > div:nth-of-type(2) {
-    height: 100%;
-    width: 20%;
-    float: left;
-    text-align: center;
-    padding-top: calc((100px - 23px) / 2);
-    padding-right: 30px;
-}
-
-header > div > div:nth-of-type(2) i {
-    font-size: 28px;
-    letter-spacing: 5px;
-    cursor: pointer;
-    color: var(--primary-color);
-}
-
 /* main */
 
-main > div > div:first-of-type {
+#hero {
     width: 100%;
     height: 600px;
 }
 
-main > div > div:first-of-type img {
+#hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-main > div > div:nth-of-type(2) {
+#welcome {
     width: 100%;
     height: 300px;
 }
 
-main > div > div:nth-of-type(2) > div:first-of-type {
+#welcome > div:first-of-type {
     width: 50%;
     min-height: 400px;
     padding-bottom: 15px;
@@ -138,18 +26,18 @@ main > div > div:nth-of-type(2) > div:first-of-type {
     background-color: var(--primary-color);
 }
 
-main > div > div:nth-of-type(2) > div:first-of-type h3,
-main > div > div:nth-of-type(2) > div:first-of-type p {
+#welcome > div:first-of-type h3,
+#welcome > div:first-of-type p {
     width: 80%;
     margin-left: 10%;
     position: relative;
 }
 
-main > div > div:nth-of-type(2) > div:first-of-type p {
+#welcome > div:first-of-type p {
     margin-top: 0;
 }
 
-main > div > div:nth-of-type(2) > div:first-of-type>div {
+#welcome > div:first-of-type>div {
     position: absolute;
     top: 0;
     left: 0;
@@ -160,11 +48,11 @@ main > div > div:nth-of-type(2) > div:first-of-type>div {
     background-size: cover;
     background-position: bottom;
     filter: blur(5px); 
-    clip-path: inset(0); /* This will clip the blurred edges */
+    clip-path: inset(0); 
 }
 
 
-main > div > div:nth-of-type(2) > div h3 {
+#welcome > div h3 {
     width: 80%;
     font-size: 30px;
     text-align: center;
@@ -172,34 +60,34 @@ main > div > div:nth-of-type(2) > div h3 {
     margin-top: calc((110px - 28px) / 2);
 }
 
-main > div > div:nth-of-type(2) > div p {
+#welcome > div p {
     width: 80%;
     text-align: center;
     color: var(--secondary-color);
     margin-top: calc((110px - 28px) / 2);
 }
 
-main > div > div:nth-of-type(2) > div:nth-of-type(2) {
+#welcome > div:nth-of-type(2) {
     background-color: var(--secondary-color);
     width: 50%;
     min-height: 400px;
     float: left;
 }
 
-main > div > div:nth-of-type(2) > div video {
+#welcome > div video {
     height: calc(100% - 30px);
     width: calc(100% - 15px);
 }
 
 /* -- */
 
-main > div > div:nth-of-type(4) {
+#about {
     position: relative;
     color: var(--primary-color);
     padding: 30px 0;
 }
 
-main > div > div:nth-of-type(4)>div {
+#about > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -208,7 +96,7 @@ main > div > div:nth-of-type(4)>div {
     z-index: -1;
 }
 
-main > div > div:nth-of-type(4)>div::before {
+#about > div::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -217,7 +105,7 @@ main > div > div:nth-of-type(4)>div::before {
     z-index: -2;
 }
 
-main > div > div:nth-of-type(4)>div::after {
+#about > div::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -226,14 +114,14 @@ main > div > div:nth-of-type(4)>div::after {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -700px 200px;
-    filter: blur(5px); /* Adjust the blur radius as needed */
-    clip-path: inset(0); /* This will clip the blurred edges */
+    filter: blur(5px);
+    clip-path: inset(0);
     z-index: -1;
     transform: scaleX(-1);
 }
 
 
-main > div > div:nth-of-type(4) h2 {
+#about h2 {
     color: var(--primary-color);
     font-weight: bold;
     text-align: center;
@@ -242,7 +130,7 @@ main > div > div:nth-of-type(4) h2 {
     margin-left: 25%;
 }
 
-main > div > div:nth-of-type(4) p {
+#about p {
     color: var(--primary-color);
     text-align: center;
     margin: calc((110px - 28px) / 2);
@@ -252,14 +140,14 @@ main > div > div:nth-of-type(4) p {
 
 /* -- */
 
-main > div > div:nth-of-type(6) {
+#testimonials {
     height: 400px;
     background-image: url("../images/udtalelser_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-main > div > div:nth-of-type(6) h2 {
+#testimonials h2 {
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -268,49 +156,49 @@ main > div > div:nth-of-type(6) h2 {
     height: 20%;
 }
 
-main > div > div:nth-of-type(6) > div {
+#testimonials > div {
     width: 50%;
     float: left;
     height: 80%;
     text-align: center;
 }
 
-main > div > div:nth-of-type(6) > div h3 {
+#testimonials > div h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
 
-main > div > div:nth-of-type(6) > div > div {
+#testimonials > div > div {
     width: 80%;
     margin-left: 10%;
     color: var(--secondary-color);
 }
 
-main > div > div:nth-of-type(6) > div > div > p > span {
+#testimonials > div > div > p > span {
     font-style: italic;
 }
 
 /* -- */
-main > div > div:nth-of-type(8) {
+#icons {
     height: 300px;
-    position: relative; /* Ensure a new stacking context */
+    position: relative;
 }
 
-main > div > div:nth-of-type(8) > div {
+#icons > div {
     width: 50%;
     height: 100%;
     float: left;
-    position: relative; /* Ensure a new stacking context */
-    z-index: 0; /* Default stacking order */
+    position: relative;
+    z-index: 0;
 }
 
-main > div > div:nth-of-type(8) > div > div {
+#icons > div > div {
     width: 50%;
     height: 100%;
     padding: 15px;
     float: left;
     text-align: center;
-    position: relative; /* Ensure text is in front */
+    position: relative;
 }
 
 .iconCard {
@@ -321,12 +209,12 @@ main > div > div:nth-of-type(8) > div > div {
     display: none;
 }
 
-main > div > div:nth-of-type(8) > div:nth-of-type(1) {
+#icons > div:nth-of-type(1) {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
 
-main > div > div:nth-of-type(8) > div:nth-of-type(1)::after {
+#icons > div:nth-of-type(1)::after {
     content: "";
     position: absolute;
     top: 0;
@@ -334,73 +222,24 @@ main > div > div:nth-of-type(8) > div:nth-of-type(1)::after {
     width: 100%;
     height: 100%;
     background-image: url("../images/logo.svg");
-    filter: blur(5px); /* Adjust the blur radius as needed */
+    filter: blur(5px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    z-index: -1; /* Background image in front of background color */
+    z-index: -1;
     
 }
 
-main > div > div:nth-of-type(8) > div:nth-of-type(2) {
+#icons > div:nth-of-type(2) {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
-main > div > div:nth-of-type(8) > div > div i {
+#icons > div > div i {
     font-size: 75px;
 }
 
-main > div > div:nth-of-type(8) > div > div h3 {
+#icons > div > div h3 {
     margin: 15px 0;
     font-weight: bold;
-}
-
-
-main > div > div:nth-of-type(2) > div:first-of-type *::selection,
-main > div > div:nth-of-type(8) > div:nth-of-type(2) > div *::selection {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-
-
-.fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-.fade-in.show {
-    opacity: 1;
-}
-
-/* footer */
-
-footer {
-    height: 175px;
-    width: 100%;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding-bottom: 15px;
-}
-
-footer img {
-    height: 150px;
-    width: 150px;
-    margin-top: calc((175px - 150px) / 2);
-}
-
-footer>div>div {
-    width: calc(100% - 150px);
-    float: right;
-    text-align: center;
-}
-
-footer>div>div>div {
-    width: calc(100% / 3);
-    height: 100%;
-    float: left;
-}
-
-@media only screen and (max-width: 1024px) {
-    
 }

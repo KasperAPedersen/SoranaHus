@@ -1,0 +1,28 @@
+﻿/* footer */
+
+footer {
+    height: 175px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-bottom: 15px;
+}
+
+footer img {
+    height: 150px;
+    width: 150px;
+    margin-top: calc((175px - 150px) / 2);
+    cursor: pointer;
+}
+
+footer>div>div {
+    width: calc(100% - 150px);
+    float: right;
+    text-align: center;
+}
+
+footer>div>div>div {
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+}

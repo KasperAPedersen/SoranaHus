@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2XSDmqjSYR85E8q6/1WD+MM06L94h7n+chsqbDUinlc=",
+  "Hash": "IdchtR+BfQkGpdu7WjSPLv0iIDevLc2hLZORYpfuhjw=",
   "Source": "soranahus",
   "BasePath": "_content/soranahus",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\udtalelser_bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\videos\\video.mp4",
+      "SourceId": "soranahus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zbc23kaped\\source\\repos\\SoranaHus\\soranahus\\wwwroot\\",
+      "BasePath": "_content/soranahus",
+      "RelativePath": "videos/video.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\video.mp4"
     }
   ]
 }
