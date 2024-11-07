@@ -21,6 +21,9 @@
     background-color: var(--primary-color);
 }
 
+html {
+    background-color: var(--secondary-color);
+}
 
 * {
     margin: 0;
