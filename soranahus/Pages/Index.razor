@@ -1,5 +1,6 @@
 ﻿@page "/"
 
+<!--suppress ALL -->
 <PageTitle>Soranahus</PageTitle>
 
 <div class="swp">
@@ -117,45 +118,71 @@
     <div class="clearFix"></div>
 
     <script>
-        window.addEventListener('resize', (() => {
-            let d = document.getElementById('welcomeContainer');
-            let e = document.getElementById('youtubeContainer');
-            
-            e.style.height = d.clientHeight + "px";
-        })());
-        
-        
-        
-        (() =>  {
-            let elements  = document.querySelectorAll('.iconCard');
-            for (let i = 0; i < elements.length; i++) {
-                let elem = elements[i];
-                elem.addEventListener('mouseover', () => {
-                    let children = (elem.children[0].children);
-                    for (let o = 0; o < children.length; o++) {
-                        children[o].style.display = "none";
-                        if (children[o].tagName === "P") {
-                            children[o].style.display = "block";
-                            children[o].classList.add('fade-in');
-                            setTimeout(() => {
-                                children[o].classList.add('show');
-                            }, 10);
-                        }
-                    }
-                });
-                
-                elem.addEventListener('mouseleave', () => {
-                    let children = (elem.children[0].children);
-                    for (let o = 0; o < children.length; o++) {
-                        children[o].style.display = "block";
-                        if (children[o].tagName === "P") {
-                            children[o].style.display = "none";
-                            children[o].classList.remove('fade-in', 'show');
-                        }
-                    }
-                });
+        (function() {
+            function debounce(func, wait) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
             }
+
+            let handleScroll = debounce(() => {
+                let height = window.scrollY;
+                let header = document.getElementsByTagName('header')[0];
+
+                if (height > 0) {
+                    header.className = "headerOnScroll";
+                    header.getElementsByTagName('img')[0].src = "../images/soranahus_tekst.svg";
+                    
+                } else {
+                    header.className = "";
+                    header.getElementsByTagName('img')[0].src = "https://soranahus.dk/wp-content/uploads/2020/07/Sorana-EPS.svg";
+                }
+            }, 10);
+
+            window.addEventListener('scroll', handleScroll);
+
+            window.addEventListener('resize', (() => {
+                let d = document.getElementById('welcomeContainer');
+                let e = document.getElementById('youtubeContainer');
+
+                e.style.height = d.clientHeight + "px";
+            })());
+
+            (() =>  {
+                let elements  = document.querySelectorAll('.iconCard');
+                for (let i = 0; i < elements.length; i++) {
+                    let elem = elements[i];
+                    elem.addEventListener('mouseover', () => {
+                        let children = (elem.children[0].children);
+                        for (let o = 0; o < children.length; o++) {
+                            children[o].style.display = "none";
+                            if (children[o].tagName === "P") {
+                                children[o].style.display = "block";
+                                children[o].classList.add('fade-in');
+                                setTimeout(() => {
+                                    children[o].classList.add('show');
+                                }, 10);
+                            }
+                        }
+                    });
+
+                    elem.addEventListener('mouseleave', () => {
+                        let children = (elem.children[0].children);
+                        for (let o = 0; o < children.length; o++) {
+                            children[o].style.display = "block";
+                            if (children[o].tagName === "P") {
+                                children[o].style.display = "none";
+                                children[o].classList.remove('fade-in', 'show');
+                            }
+                        }
+                    });
+                }
+            })();
         })();
+    
+    
     
     </script>
 </div>
