@@ -77,15 +77,15 @@
 
     <div>
         <div>
-            <div class="w3-display-container">
-                <div class="w3-display-topmiddle">
+            <div class="w3-display-container iconCard">
+                <div class="w3-display-middle">
                     <i class="fa-solid fa-house-user"></i>
                     <h3>Målgruppe</h3>
                     <p>Barnets Lov (BL) paragraf §43 (børne- og ungehjem) BL paragraf §114 (ungestøtte), samt Serviceloven §107 (midlertidigt voksentilbud).</p>
                 </div>
             </div>
-            <div class="w3-display-container">
-                <div class="w3-display-topmiddle">
+            <div class="w3-display-container iconCard">
+                <div class="w3-display-middle">
                     <i class="fa fa-book" aria-hidden="true"></i>
                     <h3>Sagsbehandler</h3>
                     <p>Find oplysninger om visitationsproces, priser etc.</p>
@@ -93,15 +93,15 @@
             </div>
         </div>
         <div>
-            <div class="w3-display-container">
-                <div class="w3-display-topmiddle">
+            <div class="w3-display-container iconCard">
+                <div class="w3-display-middle">
                     <i class="fa fa-child" aria-hidden="true"></i>
                     <h3>At bo her</h3>
                     <p>Til dig der overvejer at vælge Soranahus.</p>
                 </div>
             </div>
-            <div class="w3-display-container">
-                <div class="w3-display-topmiddle">
+            <div class="w3-display-container iconCard">
+                <div class="w3-display-middle">
                     <i class="fa fa-users" aria-hidden="true"></i>
                     <h3>Familiesamarbejde</h3>
                     <p>Familiesupervision er en integreret del af døgnanbringelsen.</p>
@@ -117,5 +117,28 @@
     </div>
 
     <div class="clearFix"></div>
+    <script>
+        (() =>  {
+            let elements  = document.querySelectorAll('.iconCard');
+            for (let i = 0; i < elements.length; i++) {
+                let elem = elements[i];
+                elem.addEventListener('mouseover', () => {
+                    let children = (elem.children[0].children);
+                    for (let o = 0; o < children.length; o++) {
+                        children[o].style.display = "none";
+                        if (children[o].tagName === "P") children[o].style.display = "block";
+                    }
+                });
+                
+                elem.addEventListener('mouseleave', () => {
+                    let children = (elem.children[0].children);
+                    for (let o = 0; o < children.length; o++) {
+                        children[o].style.display = "block";
+                        if (children[o].tagName === "P") children[o].style.display = "none";
+                    }
+                });
+            }
+        })();
+    </script>
 </div>
 <!---->

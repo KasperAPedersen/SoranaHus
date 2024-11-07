@@ -54,7 +54,6 @@ C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\staticweba
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.soranahus.props
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\scopedcss\bundle\soranahus.styles.css
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\scopedcss\projectbundle\soranahus.bundle.scp.css
 C:\Users\zbc23kaped\source\repos\SoranaHus\soranahus\obj\Debug\net6.0\soranahus.dll
