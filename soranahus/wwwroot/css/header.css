@@ -25,6 +25,7 @@ header > div > img {
     height: 100%;
     width: 20%;
     float: left;
+    cursor: pointer;
 }
 
 header > div > div:first-of-type {
